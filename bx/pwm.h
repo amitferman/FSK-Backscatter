@@ -1,10 +1,13 @@
 #ifndef _PWM_H_
 #define _PWM_H_
 
-#define TOP0 3 // 2000 kHz
-#define TOP1 2 // 2667 kHz
+#include "Arduino.h"
+#include <avr/io.h>
 
-#define pwm(x) (x == 0 ? (TCNT4 = 0; OCR4A = TOP0;) : (TCNT4 = 0; OCR4A = TOP1;))
+#define TOP0  15 // 1000 kHz
+#define TOP1  12 // 1230 kHz
+
+#define pwm(x) if (x == 0) { TCNT4 = 0; OCR4A = TOP0; } else { TCNT4 = 0; OCR4A = TOP1; }
 
 void initPWM();
 
