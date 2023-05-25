@@ -17,7 +17,11 @@ void setup() {
 
 void loop() {
     pwm(0)
-    delay(100);
+    delay(3);
     pwm(1)
-    delay(100);
+    delay(2);
+    pwm(0)
+    delay(1);
+    pwm(1)
+    delay(1);
 }
