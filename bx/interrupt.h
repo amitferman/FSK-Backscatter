@@ -3,7 +3,7 @@
 
 #include "Arduino.h"
 
-#define BIT_RATE_TOP 249 // 1 kHz // 8 // 1 MHz
+#define BIT_RATE_TOP 124 // 1 kHz // 8 // 1 MHz
 
 #define PERIODIC_ISR ISR(TIMER3_COMPA_vect)
 
