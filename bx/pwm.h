@@ -1,3 +1,17 @@
+/*
+University of Washington
+CSE 493W: Wireless Communication, Spring 2023
+Author: Amit Ferman
+
+Defines API for pulse-width modulating pin 6 (PH3/OCRA).
+
+PWM frequency for bit 0 = 16e6 / (TOP0 + 1)
+
+PWM frequency for bit 1 = 16e6 / (TOP1 + 1)
+
+See Fast PWM docs in Atmel ATmega datasheet, p.146: https://ww1.microchip.com/downloads/en/devicedoc/atmel-2549-8-bit-avr-microcontroller-atmega640-1280-1281-2560-2561_datasheet.pdf
+*/
+
 #ifndef _PWM_H_
 #define _PWM_H_
 

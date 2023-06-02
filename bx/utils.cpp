@@ -1,3 +1,11 @@
+/*
+University of Washington
+CSE 493W: Wireless Communication, Spring 2023
+Author: Amit Ferman
+
+Implements misc utils.
+*/
+
 #include "Arduino.h"
 #include "utils.h"
 

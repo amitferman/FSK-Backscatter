@@ -1,6 +1,10 @@
-# Hamming(7, 4) implementation
+# University of Washington
+# CSE 493W: Wireless Communication, Spring 2023
+# Author: Amit Ferman
+# 
+# Implements Hamming(7, 4) codes for error correction.
 
-import utils
+import bit_utils
 
 # Pads every four data bits with three ceck bits using Hamming(7, 4).
 # Input must be a string of 1s and 0s whose length is a multiple of four.
@@ -37,7 +41,7 @@ def decode_hamming(bits):
 
         
         if error_index is not None:
-            corrected_group = utils.flip_bit(group, error_index)
+            corrected_group = bit_utils.flip_bit(group, error_index)
             res += corrected_group[:4]
             num_corrections += 1
         else:
@@ -102,7 +106,7 @@ if __name__ == "__main__":
         print("\tPlaintext =\t%s" % (plaintext))
         encoded = encode_hamming(plaintext)
         print("\tEncoded =\t%s" % (encoded))
-        flipped = utils.flip_bit(encoded, random.randint(0, 15))
+        flipped = bit_utils.flip_bit(encoded, random.randint(0, 15))
         print("\tFlipped =\t%s" % (flipped))
         decoded = decode_hamming(flipped)
         print("\tDecoded =\t%s" % (decoded))

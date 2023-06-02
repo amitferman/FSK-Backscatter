@@ -1,3 +1,11 @@
+/*
+University of Washington
+CSE 493W: Wireless Communication, Spring 2023
+Author: Amit Ferman
+
+Implements API for pulse-width modulating pin 6 (PH3/OCRA).
+*/
+
 #include "Arduino.h"
 #include <avr/io.h>
 #include "pwm.h"

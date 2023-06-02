@@ -1,3 +1,11 @@
+/*
+University of Washington
+CSE 493W: Wireless Communication, Spring 2023
+Author: Amit Ferman
+
+Implements an API for periodic interrupts.
+*/
+
 #include "Arduino.h"
 #include <avr/io.h>
 #include <avr/interrupt.h>
@@ -14,7 +22,6 @@ void initPeriodicISR() {
   DDRE |= (1 << PE3);
 
   TIMSK3 |= (1 << OCIE3A); 
-
 
   // set fast PWM mode, non-inverting, and prescalar 64 on timer 3
   // TCCR3A |= (1 << WGM31) | (1 << WGM30) | (1 << COM3A0);

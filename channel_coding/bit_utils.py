@@ -1,3 +1,10 @@
+# University of Washington
+# CSE 493W: Wireless Communication, Spring 2023
+# Author: Amit Ferman
+# 
+# Miscellaneous bit-level utilities. N.B., bit streams are commonly
+# represented as strings of 1s and 0s.
+
 # Converts a string to bits per ASCII encoding. Returns a string of bits.
 def string_to_bits(input_string):
     ascii_values = [ord(char) for char in input_string]
