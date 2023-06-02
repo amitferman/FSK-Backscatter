@@ -1,0 +1,42 @@
+
+def squelch(signal, p):
+    abs = np.abs(signal)
+    threshold = np.ptp(abs) * p
+    res = np.copy(signal)
+    for i in range(len(signal)):
+        if (abs[i] > threshold):
+            res[i] = 0.0
+    return res
+
+
+# squelching
+sqspectrum = fspectrum - squelch(fspectrum, 0.2)
+sqsamples = np.fft.ifft(np.fft.fftshift(sqspectrum))
+
+fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(10, 4))
+ax1.set_title("sqsamples")
+ax1.plot(np.abs(sqsamples), color='red')
+ax2.set_title("sqspectrum")
+ax2.plot(freqs, np.abs(sqspectrum), color='blue')
+
+# # decimation filtering
+# dec_factor = 1 # sampsperbit // 100 # we want 100 dec_sampsperbit
+# dec_sampsperbit = sampsperbit // dec_factor
+# dec_fsps = fsps // dec_factor
+# dec_nyquist = dec_fsps // 2
+# dec_N = N // dec_factor
+
+# dec_cdtheta = filteredsignal[::dec_factor]
+# dec_cdtheta_spectrum = np.fft.fftshift(np.fft.fft(dec_cdtheta))
+# dec_freqs = np.linspace(fc-dec_nyquist, fc+dec_nyquist, dec_N)
+
+# fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(10, 4))
+# ax1.set_title("dec_cdtheta: Time Domain")
+# ax1.plot(dec_cdtheta, color='red')
+# ax2.set_title("dtheta: Frequency Domain")
+# ax2.plot(dec_freqs, np.abs(dec_cdtheta_spectrum), color='blue')
+
+
+__1_010
+
+001 010 011 100 101 111
