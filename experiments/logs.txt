@@ -1,0 +1,231 @@
+20kbps
+
+Load rate (b/s) = 20000
+Throughput (packets/sec) = 230
+Throughput (bytes/sec) = 460
+Throughput (bits/sec) = 3680
+Tput/Load Rate = 18.40%
+
+Goodput (bits/sec) = 3600
+Correctness = 97.83%
+
+20kbps
+
+Load rate (b/s) = 20000
+Throughput (packets/sec) = 214
+Throughput (bytes/sec) = 428
+Throughput (bits/sec) = 3424
+Tput/Load Rate = 17.12%
+
+Goodput (bits/sec) = 3248
+Correctness = 94.86%
+
+20kbps
+
+Load rate (b/s) = 20000
+Throughput (packets/sec) = 236
+Throughput (bytes/sec) = 472
+Throughput (bits/sec) = 3776
+Tput/Load Rate = 18.88%
+
+Goodput (bits/sec) = 3760
+Correctness = 99.58%
+
+20kbps
+
+Load rate (b/s) = 20000
+Throughput (packets/sec) = 217
+Throughput (bytes/sec) = 434
+Throughput (bits/sec) = 3472
+Tput/Load Rate = 17.36%
+
+Goodput (bits/sec) = 3248
+Correctness = 93.55%
+
+10kbps
+
+Load rate (b/s) = 10000
+Throughput (packets/sec) = 106
+Throughput (bytes/sec) = 212
+Throughput (bits/sec) = 1696
+Tput/Load Rate = 16.96%
+
+Goodput (bits/sec) = 1664
+Correctness = 98.11%
+
+10kbps
+
+Load rate (b/s) = 10000
+Throughput (packets/sec) = 73
+Throughput (bytes/sec) = 146
+Throughput (bits/sec) = 1168
+Tput/Load Rate = 11.68%
+
+Goodput (bits/sec) = 960
+Correctness = 82.19%
+
+10kbps
+
+Load rate (b/s) = 10000
+Throughput (packets/sec) = 118
+Throughput (bytes/sec) = 236
+Throughput (bits/sec) = 1888
+Tput/Load Rate = 18.88%
+
+Goodput (bits/sec) = 1856
+Correctness = 98.31%
+
+10kbps
+
+Load rate (b/s) = 10000
+Throughput (packets/sec) = 62
+Throughput (bytes/sec) = 124
+Throughput (bits/sec) = 992
+Tput/Load Rate = 9.92%
+
+Goodput (bits/sec) = 864
+Correctness = 87.10%
+
+5kbps
+
+Load rate (b/s) = 5000
+Throughput (packets/sec) = 63
+Throughput (bytes/sec) = 126
+Throughput (bits/sec) = 1008
+Tput/Load Rate = 20.16%
+
+Goodput (bits/sec) = 960
+Correctness = 95.24%
+
+5kbps
+
+Load rate (b/s) = 5000
+Throughput (packets/sec) = 33
+Throughput (bytes/sec) = 66
+Throughput (bits/sec) = 528
+Tput/Load Rate = 10.56%
+
+Goodput (bits/sec) = 352
+Correctness = 66.67%
+
+5kbps
+
+Load rate (b/s) = 5000
+Throughput (packets/sec) = 35
+Throughput (bytes/sec) = 70
+Throughput (bits/sec) = 560
+Tput/Load Rate = 11.20%
+
+Goodput (bits/sec) = 528
+Correctness = 94.29%
+
+5kbps
+
+Load rate (b/s) = 5000
+Throughput (packets/sec) = 60
+Throughput (bytes/sec) = 120
+Throughput (bits/sec) = 960
+Tput/Load Rate = 19.20%
+
+Goodput (bits/sec) = 864
+Correctness = 90.00%
+
+*** switched code
+
+1kbps
+
+Load rate (b/s) = 1000
+Throughput (packets/sec) = 12
+Throughput (bytes/sec) = 24
+Throughput (bits/sec) = 192
+Tput/Load Rate = 19.20%
+
+Goodput (bits/sec) = 192
+Correctness = 100.00%
+
+1kbps
+
+Load rate (b/s) = 1000
+Throughput (packets/sec) = 4
+Throughput (bytes/sec) = 8
+Throughput (bits/sec) = 64
+Tput/Load Rate = 6.40%
+
+Goodput (bits/sec) = 64
+Correctness = 100.00%
+
+1kbps
+
+Load rate (b/s) = 1000
+Throughput (packets/sec) = 11
+Throughput (bytes/sec) = 22
+Throughput (bits/sec) = 176
+Tput/Load Rate = 17.60%
+
+Goodput (bits/sec) = 176
+Correctness = 100.00%
+
+1kbps
+
+Load rate (b/s) = 1000
+Throughput (packets/sec) = 7
+Throughput (bytes/sec) = 14
+Throughput (bits/sec) = 112
+Tput/Load Rate = 11.20%
+
+Goodput (bits/sec) = 112
+Correctness = 100.00%
+
+40kbps
+
+Load rate (b/s) = 40000
+Throughput (packets/sec) = 339
+Throughput (bytes/sec) = 678
+Throughput (bits/sec) = 5424
+Tput/Load Rate = 13.56%
+
+Goodput (bits/sec) = 5392
+Correctness = 99.41%
+
+40kbps
+
+Load rate (b/s) = 40000
+Throughput (packets/sec) = 326
+Throughput (bytes/sec) = 652
+Throughput (bits/sec) = 5216
+Tput/Load Rate = 13.04%
+
+Goodput (bits/sec) = 5104
+Correctness = 97.85%
+
+40kbps
+
+Load rate (b/s) = 40000
+Throughput (packets/sec) = 350
+Throughput (bytes/sec) = 700
+Throughput (bits/sec) = 5600
+Tput/Load Rate = 14.00%
+
+Goodput (bits/sec) = 5584
+Correctness = 99.71%
+
+40kbps
+
+Load rate (b/s) = 40000
+Throughput (packets/sec) = 313
+Throughput (bytes/sec) = 626
+Throughput (bits/sec) = 5008
+Tput/Load Rate = 12.52%
+
+Goodput (bits/sec) = 4880
+Correctness = 97.44%
+
+100kbps
+
+Load rate (b/s) = 100000
+Throughput (packets/sec) = 0
+Throughput (bytes/sec) = 0
+Throughput (bits/sec) = 0
+Tput/Load Rate = 0.00%
+
+
