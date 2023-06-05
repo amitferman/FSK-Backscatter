@@ -15,10 +15,10 @@ See Fast PWM docs in Atmel ATmega datasheet, p.146: https://ww1.microchip.com/do
 
 #include "Arduino.h"
 
-#define BIT_RATE_TOP 199 // 80kHz
+// #define BIT_RATE_TOP 199 // 80kHz
 // #define BIT_RATE_TOP 399 // 40kHz
 // #define BIT_RATE_TOP 799 // 20 kHz 
-// #define BIT_RATE_TOP 1599 // 10kHz
+#define BIT_RATE_TOP 1599 // 10kHz
 // #define BIT_RATE_TOP 3199 // 5kHz
 // #define BIT_RATE_TOP 15999 // 1kHz
 
