@@ -1,8 +1,3 @@
 # FSK-Backscatter
 
-CSE 493: Wireless Communication
-
-Dr. Joshua R. Smith
-
-
-Docs coming soon...
+See my Medium article [here](https://medium.com/@amitferman/frequency-shift-keying-backscatter-and-bluetooth-low-energy-ee484c43c7e7)!
